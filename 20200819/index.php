@@ -9,7 +9,7 @@
             height: 100px;
         }
     </style>
-    <script src="../../jquery-3.5.1.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
     <script>
         $(document).ready(function(){
             $("#ocultar").change(function(){
