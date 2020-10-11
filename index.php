@@ -15,6 +15,8 @@
 		<p> <a href="projeto/grupoB.php"> 16/09/2020 - Projeto Prático 1º Bimestre </a> </p>
 
 		<p> <h2> 2º Bimestre: </h2> </p>
-		<p> <a href="20200923/"> 23/09/2020 - Exercício em grupo - Taxonomia </a> </p>
+		<p> <a href="20200923/"> 23/09/2020 - Exercício Prático 1 em grupo - Taxonomia </a> </p>
+		<p> <a href="20200930/"> 30/09/2020 - Exercício Prático 2 em grupo - Taxonomia </a> </p>
+		<p> <a href="20201007/index.php"> 07/10/2020 - Exercício Prático 3 em grupo - Taxonomia </a> </p>
 	</body>
 </html>
