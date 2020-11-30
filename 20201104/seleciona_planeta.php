@@ -3,7 +3,7 @@
     include "conexao.php";
     if(!empty($_POST)){
         $id = $_POST["id"];
-        $select="SELECT id_galaxia, id_planeta, nome FROM planeta INNER JOIN galaxia on planeta.cod_galaxia = galaxia.id_galaxia WHERE id_planeta = '$id'";
+        $select="SELECT id_galaxia, id_planeta, planeta.nome as nome FROM planeta INNER JOIN galaxia on planeta.cod_galaxia = galaxia.id_galaxia WHERE id_planeta = '$id'";
     }else{
         $select="SELECT id_planeta, nome FROM planeta";
     }
@@ -12,5 +12,6 @@
     while($linha=mysqli_fetch_assoc($res)){
         $resultado[]= $linha;
     }
-    echo json_encode("teste");
+    echo json_encode($resultado);
 ?>
+
