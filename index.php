@@ -18,5 +18,8 @@
 		<p> <a href="20200923/"> 23/09/2020 - Exercício Prático 1 em grupo - Taxonomia </a> </p>
 		<p> <a href="20200930/"> 30/09/2020 - Exercício Prático 2 em grupo - Taxonomia </a> </p>
 		<p> <a href="20201007/index.php"> 07/10/2020 - Exercício Prático 3 em grupo - Taxonomia </a> </p>
+
+		<p> <h2> 3º Bimestre: </h2> </p>
+		<p> <a href="20201104/index.php"> 04/11/2020 - Projeto acumulativo - Astronomia </a> </p>
 	</body>
 </html>
