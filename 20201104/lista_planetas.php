@@ -10,9 +10,10 @@ cabecalho();
             $("button[name='alterar_planeta']").click(function(){
 
             i = $(this).val();
-               
-                $.post("seleciona_planeta2.php",{"id":i},function(r){
-                    a = r[0];                               
+                console.log(i);
+                $.post("seleciona_planeta.php",{"id":i},function(r){
+                    a = r[0];  
+                    console.log(r);                             
                     $("input[name='id_planeta']").val(a.id_planeta);
                     $("input[name='planeta']").val(a.nome);
                     $("select[name='recebe2']").val(a.id_galaxia);
@@ -20,7 +21,7 @@ cabecalho();
             });
         }
         function salvar_planeta(){
-            $("#salvar").click(function(){   
+            $("#salvar").click(function(){    
             p = {
                     id:$("input[name='id_planeta']").val(),
                     nome:$("input[name='planeta']").val(),
