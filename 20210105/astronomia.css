@@ -31,19 +31,13 @@
     font-size: 20px;
 }
 
-.flex-container {
+.container2{
     display: flex;
     flex-flow: row wrap;
 }
 
 
-.main, main {
-    flex: 60%;
-    padding: 0 15px;
-    margin-top: 5px;
-}
-
-img {
+.imagem{
     width: 800px;
     height: 370px;
     margin-left: 260px;
@@ -56,9 +50,3 @@ img {
     color: white;
 }
 
-@media only screen and (max-width: 992px){
-    .main, main {
-        flex:80%;
-        padding: 0;
-    }
-}

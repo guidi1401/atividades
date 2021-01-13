@@ -32,10 +32,10 @@
             <header>
                 <h1>Astronomia</h1>
             </header>
-            <div class="flex-container">
+            <div class="container2">
             <p class="texto"> "Astronomia é uma ciência natural que estuda corpos celestes (como estrelas, planetas, cometas, nebulosas, aglomerados de estrelas, galáxias) e fenômenos que se originam fora da atmosfera da Terra (como a radiação cósmica de fundo em micro-ondas). Preocupada com a evolução, a física, a química e o movimento de objetos celestes, bem como a formação e o desenvolvimento do universo.
             </p>
-            <center> <img class="img" src="foto.gif".gif"></img> </center>
+            <img class="imagem" src="foto.gif"></img>
             <p class="texto"> A Astronomia tem acompanhado a nossa história e cultura e tem constantemente revolucionado o nosso pensamento, presenteado a Humanidade com pistas em direcção ao futuro. No passado, a astronomia foi usada por diversas razões práticas, como medir o tempo, marcar as estações do ano ou navegar nos vastos oceanos.</p>
             <p class="texto"> Os resultados do desenvolvimento científico e tecnológico da astronomia e áreas afins têm vindo recorrentemente a transformar-se em aplicações essenciais para o nosso dia-a-dia, como computadores pessoais, satélites de comunicação, telemóveis, Sistema de Posicionamento Global (popularmente conhecido por GPS), painéis solares, scanners de ressonância magnética, micro laser e muitas outras aplicações para a medicina."</p>
         </div>
